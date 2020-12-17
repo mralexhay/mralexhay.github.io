@@ -17,7 +17,7 @@ The completed project we’re building is available in full on [GitHub](https://
 
 ---
 
-### Step One
+## Step One
 
 In this first tutorial, we’ll be creating a basic project and adding our first shortcut which, when run, will simply make any input text uppercase.
 
@@ -27,7 +27,7 @@ Let's create a new project in Xcode. Select ‘single view app’, give it a nam
 
 ---
 
-### Step Two
+## Step Two
 
 Shortcuts are a part of SiriKit and it's an ‘intent extension’ which handles most interactions with SiriKit. It's like a separate shard of your app that runs in the background.
 
@@ -37,7 +37,7 @@ Go to **File > New Target**, add an Intents Extension. Give it a name, I’m cal
 
 ---
 
-### Step Three
+## Step Three
 
 Right click on our new *‘Shortcuts’* target folder, and add a new file. Select the **SiriKit Intent Definition File*. Leave it called *‘Intents’*.
 
