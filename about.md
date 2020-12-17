@@ -3,7 +3,7 @@ layout: page
 title:
 ---
 
-I'm Alex Hay, a [documentary editor](https://www.alexhay.tv) and indie iOS app developer.
+I'm Alex Hay, a London-based [documentary editor](https://www.alexhay.tv) and indie iOS app developer.
 
 I'm currently working on:
 
