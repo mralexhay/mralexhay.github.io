@@ -53,9 +53,7 @@ Here we can define what the shortcut action will look like and what parameters i
 
 > _Name your intent using a VerbNoun convention, like SetAlarm, CheckOrderStatus, and so on_
 
-Make sure it’s added to the Shortcuts and main app targets in the inspector:
-
-![Screenshot 4](/assets/tut1_4.png)
+Make sure it’s added to the Shortcuts and main app targets in the inspector.
 
 ---
 
