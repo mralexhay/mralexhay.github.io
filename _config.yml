@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               'Alex Hay'
 url:                 https://alexhay.dev
-tagline:             London-based app developer!
+tagline:             London-based app developer
 paginate:            1000
 paginate_path:       "/page:num/"
 baseurl:             ""
