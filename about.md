@@ -3,8 +3,11 @@ layout: page
 title:
 ---
 
-I'm Alex Hay, a [documentary editor](https://www.alexhay.tv) and indie app developer.
+I'm Alex Hay, a [documentary editor](https://www.alexhay.tv) and indie iOS app developer.
 
-I make [Toolbox Pro](https://toolboxpro.app), an app that adds powerful new actions to Apple's iOS automation app, Shortcuts.  
+I'm currently working on:
 
-You can find me on [Twitter](https://twitter.com/mralexhay).
+* [Toolbox Pro](https://toolboxpro.app) - powerful new automation actions for Shortcuts
+* [Menu Box](https://testflight.apple.com/join/aMJxldvJ) (in beta) - easily create beautiful menus for Shortcuts
+
+Say hello on [Twitter](https://twitter.com/mralexhay).
