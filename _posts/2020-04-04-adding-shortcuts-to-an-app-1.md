@@ -227,11 +227,11 @@ Now that we have a foundation in place, in the next posts we’ll look at more c
 
 These are the other posts in the series:
 
- [Part 1:](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-1)  _Creating a project and adding the first action_
- [Part 2](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-2) : _Exploring parameters: arrays, enums, calculated lists and files_
- [Part 3](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-part-three) : _In-app intent handling, custom output types, visual list API and using the SwiftUI app protocol_
- [Part 4](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-part-four) : _Visual Lists in parameters and pushing data from Shortcuts into a SwiftUI view_
+* [Part 1:](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-1)  _Creating a project and adding the first action_
+* [Part 2](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-2) : _Exploring parameters: arrays, enums, calculated lists and files_
+* [Part 3](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-part-three) : _In-app intent handling, custom output types, visual list API and using the SwiftUI app protocol_
+* [Part 4](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-part-four) : _Visual Lists in parameters and pushing data from Shortcuts into a SwiftUI view_
  
 The complete code for the tutorials is also on GitHub:
- [Parts 1 & 2](https://github.com/mralexhay/ShortcutsExample)  (iOS 13)
- [Parts 3 & 4](https://github.com/mralexhay/Shortcuts-Example-iOS14)  (iOS 14)
+* [Parts 1 & 2](https://github.com/mralexhay/ShortcutsExample)  (iOS 13)
+* [Parts 3 & 4](https://github.com/mralexhay/Shortcuts-Example-iOS14)  (iOS 14)
