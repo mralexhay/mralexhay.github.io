@@ -25,8 +25,6 @@ Let's create a new project in Xcode. Select ‘single view app’, give it a nam
 
 ![Screenshot 1](/assets/tut1_1.png)
 
----
-
 ## Step Two
 
 Shortcuts are a part of SiriKit and it's an ‘intent extension’ which handles most interactions with SiriKit. It's like a separate shard of your app that runs in the background.
@@ -35,15 +33,11 @@ Go to **File > New Target**, add an Intents Extension. Give it a name, I’m cal
 
 ![Screenshot 2](/assets/tut1_2.png)
 
----
-
 ## Step Three
 
 Right click on our new *‘Shortcuts’* target folder, and add a new file. Select the **SiriKit Intent Definition File*. Leave it called *‘Intents’*.
 
 ![Screenshot 3](/assets/tut1_3.png)
-
----
 
 ## Step Four
 
@@ -75,8 +69,6 @@ We’re going to show an error to the user in the Shortcuts app if the source te
 
 ![Screenshot 5](/assets/tut1_5.png)
 
----
-
 ## Step Eight
 
 Now in the ‘**Suggestions**’ section we’ll untick ‘_Intent is eligible for Siri Suggestions_’. This allows the system to show the action on the lock screen or in the search from the dashboard but we don’t need that for this example.
@@ -94,8 +86,6 @@ Any variables not entered in the **Summary** box will show inside the Shortcuts 
 
 ![Screenshot 6](/assets/tut1_6.png)
 
----
-
 ## Step Ten
 
 Now let’s configure what is output from the Shortcuts action. Click on the custom intent’s _Response_. We’ll add two properties, “_result_” and “_error_”. Both are strings and won’t support multiple values. We’ll change the display name of the ‘_result_’ to “_Uppercase Text”._
@@ -107,8 +97,6 @@ Now let’s configure what is output from the Shortcuts action. Click on the cus
 We’ll change the output to our new “_result_” property - this is what will be output from the shortcut action. In our _Response Templates_, we’ll add the ‘_result_’ property to both the voice and printed success dialogs and we’ll add the ‘_error_’ property in the same way to the failure code.
 
 ![Screenshot 7](/assets/tut1_7.png)
-
----
 
 ## Step Twelve
 
@@ -125,8 +113,6 @@ class MakeUppercaseIntentHandler: NSObject, MakeUppercaseIntentHandling {
 You’ll see it throws an error because we’re not handling the ‘_text_’ parameter we added or handing the intent. Let’s hit the fix button to add the required protocol stubs.
 
 ![Screenshot 8](/assets/tut1_8.png)
-
----
 
 ## Step Thirteen
 
@@ -169,15 +155,11 @@ If the text is valid we’re making it uppercase and then using the response cod
 
 ![Screenshot 9](/assets/tut1_9.png)
 
----
-
 ## Step Fifteen
 
 OK so far so good. Our project builds and if we run it on our device, in the Shortcuts app we can see a new action called ‘**Make Uppercase**’.  When we run it however, we’ll get _“An unknown error occurred”_. That’s because the intent handler we just wrote isn’t being called when the shortcut is run. 
 
 ![Screenshot 10](/assets/tut1_10.png)
-
----
 
 ## Step Sixteen
 
@@ -210,8 +192,6 @@ Let’s build our app and go back to the Shortcuts app and try again.
 Success! Our text is made uppercase and when there’s no value we see the error message.
 
 ![Screenshot 11](/assets/tut1_11.png)
-
----
 
 ## Summary 
 
