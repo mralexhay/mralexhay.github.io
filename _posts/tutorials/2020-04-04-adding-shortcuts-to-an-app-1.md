@@ -2,6 +2,7 @@
 layout: post
 title: Adding Shortcuts To An App - Part One
 description: How to add shortcut actions to an iOS app 
+category: tutorials
 summary: How to add shortcut actions to an iOS app 
 ---
 
