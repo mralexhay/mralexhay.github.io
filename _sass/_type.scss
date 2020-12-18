@@ -131,9 +131,13 @@ ul li, ol li {
     color: white;
 
     a,a:visited {
-      color: white;
-    }
+   color: white;
 
+   &:hover {
+     color: #f22c56;
+   }
+}
+    
     blockquote {
       background: none;
       border-color: black;
