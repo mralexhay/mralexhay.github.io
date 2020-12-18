@@ -1,6 +1,15 @@
 <div class="masthead-container">
     <header role="banner">
-        <p><strong>{{ site.title }}</strong> <br> {{ site.tagline }}</p>
+        <p>
+            <div class="site-title">
+           {{ site.title }} 
+           </div>
+         
+            <div class="site-subtitle">
+                {{ site.tagline }}
+            </div>
+            
+        </p>
         {% include navigation.html %}
     </header>
 </div>

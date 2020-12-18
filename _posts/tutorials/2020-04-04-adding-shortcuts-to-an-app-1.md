@@ -6,7 +6,7 @@ category: tutorials
 summary: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action
 ---
 
-When I decided I wanted to make a [Shortcuts utility app](applewebdata://E5BF9D22-D253-4F04-BA5A-C3E3B080EDC2/home), I downloaded Apple’s Shortcuts demo project ‘[Soup Chef](https://developer.apple.com/documentation/sirikit/soup_chef_accelerating_app_interactions_with_shortcuts)’ to try and figure it all out.
+When I decided I wanted to make a [Shortcuts utility app](https://www.toolboxpro.app), I downloaded Apple’s Shortcuts demo project ‘[Soup Chef](https://developer.apple.com/documentation/sirikit/soup_chef_accelerating_app_interactions_with_shortcuts)’ to try and figure it all out.
 
 It’s a really excellent demo project, full of all the functionality that can be used to make complex shortcut actions, but since I was just starting out, I found it overwhelming how much was in there.
 
@@ -206,11 +206,11 @@ Now that we have a foundation in place, in the next posts we’ll look at more c
 
 These are the other posts in the series:
 
-* [Part 1:](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-1)  _Creating a project and adding the first action_
-* [Part 2](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-2) : _Exploring parameters: arrays, enums, calculated lists and files_
-* [Part 3](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-part-three) : _In-app intent handling, custom output types, visual list API and using the SwiftUI app protocol_
-* [Part 4](https://toolboxpro.app/blog/adding-shortcuts-to-an-app-part-four) : _Visual Lists in parameters and pushing data from Shortcuts into a SwiftUI view_
+* Part 1: _Creating a project and adding the first action_
+* [Part 2]({% post_url /tutorials/2020-04-09-adding-shortcuts-to-an-app-2 %}): _Exploring parameters: arrays, enums, calculated lists and files_
+* [Part 3]({% post_url /tutorials/2020-10-21-adding-shortcuts-to-an-app-3 %}): _In-app intent handling, custom output types, visual list API and using the SwiftUI app protocol_
+* [Part 4]({% post_url /tutorials/2020-10-23-adding-shortcuts-to-an-app-4 %}): _Visual Lists in parameters and pushing data from Shortcuts into a SwiftUI view_
  
 The complete code for the tutorials is also on GitHub:
-* [Parts 1 & 2](https://github.com/mralexhay/ShortcutsExample)  (iOS 13)
-* [Parts 3 & 4](https://github.com/mralexhay/Shortcuts-Example-iOS14)  (iOS 14)
+* [Parts 1 & 2](https://github.com/mralexhay/ShortcutsExample) (iOS 13)
+* [Parts 3 & 4](https://github.com/mralexhay/Shortcuts-Example-iOS14) (iOS 14)

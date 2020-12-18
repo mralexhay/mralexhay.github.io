@@ -27,6 +27,19 @@ table {
     }
 }
 
+.small-img {    
+    height: auto;
+    left: calc(50% - 250px);
+    position: relative;
+    width: 500px;
+
+    @media(max-width:1000px) {
+        left: auto;
+        width: 100%;
+    }
+}
+
+
 img {
     height: auto;
     left: calc(50% - 500px);
