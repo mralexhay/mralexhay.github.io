@@ -6,6 +6,8 @@ body {
   font-size: $root-font-size;
   line-height: $root-line-height;
   font-display: swap;
+  background: $body-color;
+  color: white;
 }
 
 .masthead-container {
@@ -24,8 +26,9 @@ a,a:visited {
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid lightgrey;
+  
+  background: none;
+  border-left: 5px solid #373838;
   font-family: "Georgia", serif;
   font-size: 120%;
   font-style: italic;
@@ -57,10 +60,11 @@ figure {
 }
 
 pre {
-  border: 1px solid lightgrey;
+  border: 1px solid #373838;
   overflow: auto;
   padding: 1em;
   width: 100%;
+  background: $body-color;
 }
 
 .posts {
@@ -122,29 +126,4 @@ ul li, ol li {
 .lead {
   font-size: 120%;
   line-height: 1.4;
-}
-
-// Dark Mode
-@media (prefers-color-scheme: dark) {
-  body {
-    background: $body-color;
-    color: white;
-
-    a,a:visited {
-   color: white;
-
-   &:hover {
-     color: #f22c56;
-   }
-}
-    
-    blockquote {
-      background: none;
-      border-color: black;
-    }
-
-    pre {
-      background: $body-color;
-    }
-  }
 }
