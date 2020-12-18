@@ -1,4 +1,11 @@
 
+---
+layout: post
+title: Dummy Code Highlighting
+description: Example code
+summary: Example code
+---
+
 ## start of code
 
 ```swift
