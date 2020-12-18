@@ -1,3 +1,7 @@
+
+## start of code
+
+```swift
 //
 //  AppStoreSearchPickerView.swift
 //  MenuBox
@@ -218,4 +222,6 @@ extension AppResult {
 		case appStoreURL = "trackViewUrl"
 	}
 }
+```
 
+## end of code
