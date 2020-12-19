@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Adding Shortcuts To An App - Part One
-description: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action
+description: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action.
 category: tutorials
-summary: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action
+summary: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action.
 ---
 
 When I decided I wanted to make a [Shortcuts utility app](https://www.toolboxpro.app), I downloaded Apple’s Shortcuts demo project ‘[Soup Chef](https://developer.apple.com/documentation/sirikit/soup_chef_accelerating_app_interactions_with_shortcuts)’ to try and figure it all out.

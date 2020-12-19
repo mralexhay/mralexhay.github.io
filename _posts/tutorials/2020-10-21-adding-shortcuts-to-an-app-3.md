@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Adding Shortcuts To An App - Part Three
-description: How to use in-app intent handling, custom output types, visual lists and the new SwiftUI app protocol
+description: How to use in-app intent handling, custom output types, visual lists and the new SwiftUI app protocol.
 category: tutorials
-summary: How to use in-app intent handling, custom output types, visual lists and the new SwiftUI app protocol
+summary: How to use in-app intent handling, custom output types, visual lists and the new SwiftUI app protocol.
 ---
 
 In the [previous post]({% post_url /tutorials/2020-04-09-adding-shortcuts-to-an-app-2 %}) we looked at adding parameters to a Shortcut action in iOS13 that:

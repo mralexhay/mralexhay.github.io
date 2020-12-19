@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Adding Shortcuts To An App - Part Two
-description: Adding a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally as well as enums and calculated lists
+description: Adding a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally as well as enums and calculated lists.
 category: tutorials
-summary: Adding a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally as well as enums and calculated lists
+summary: Adding a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally as well as enums and calculated lists.
 ---
 
 In the [last post]({% post_url /tutorials/2020-04-04-adding-shortcuts-to-an-app-1 %}) we looked at starting from scratch with a blank Xcode project and adding a basic Shortcuts action that made text uppercase.
