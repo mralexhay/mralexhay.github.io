@@ -160,7 +160,7 @@ If the text is valid we’re making it uppercase and then using the response cod
 
 OK so far so good. Our project builds and if we run it on our device, in the Shortcuts app we can see a new action called ‘**Make Uppercase**’.  When we run it however, we’ll get _“An unknown error occurred”_. That’s because the intent handler we just wrote isn’t being called when the shortcut is run. 
 
-![Screenshot 10](/assets/tut1_10.png)
+![Screenshot 10](/assets/tut1_10.png){:.small-img}
 
 ## Step Sixteen
 
@@ -192,7 +192,7 @@ Let’s build our app and go back to the Shortcuts app and try again.
 
 Success! Our text is made uppercase and when there’s no value we see the error message.
 
-![Screenshot 11](/assets/tut1_11.png)
+![Screenshot 11](/assets/tut1_11.png){:.small-img}
 
 ## Summary 
 

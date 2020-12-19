@@ -2,11 +2,15 @@
   <ul>
   {% if page.title == "Home" %}
     <li> <a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
+  {% elsif page.layout == "post" and page.category != "tutorials" %}
+    <li> <a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
   {% else %}
     <li> <a class="inactive-nav" href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
   {% endif %}
   
   {% if page.title == "Tutorials" %}
+    <li> <a href="/tutorials" title="Tutorials">Tutorials</a></li>
+  {% elsif page.layout == "post" and page.category == "tutorials" %}
     <li> <a href="/tutorials" title="Tutorials">Tutorials</a></li>
   {% else %}
     <li> <a class="inactive-nav" href="/tutorials" title="Tutorials">Tutorials</a></li>

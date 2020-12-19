@@ -96,7 +96,8 @@ In the intent, notice our summary has two supported combinations. This is becaus
 We’ll use the same description for both summaries. We’ll leave the **changeCase** and **case** parameters out of the summary since they’re optional. They’ll show in the Shortcut action under  a **show more** twirl-down.
 
 ![Screenshot 9](/assets/tut2_9.gif)
-![Screenshot 10](/assets/tut2_10.gif){:.small-img}
+
+![Screenshot 10](/assets/tut2_10.gif){:.narrow-img}
 
 ## Step Nine
 

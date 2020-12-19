@@ -39,6 +39,10 @@ a,a:visited {
     color: #bbbcbd;
   }
   
+  &.footer-nav {
+    opacity: 0.4;
+  }
+  
   &:hover {
     color: $brand-color;
   }
@@ -61,6 +65,7 @@ blockquote {
   footer {
     font-size: 80%;
     margin: 1rem 0 0 0;
+    opacity: 0.4;
   }
 }
 

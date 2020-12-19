@@ -39,6 +39,18 @@ table {
     }
 }
 
+.narrow-img {    
+    height: auto;
+    left: calc(50% - 150px);
+    position: relative;
+    width: 300px;
+
+    @media(max-width:1000px) {
+        left: auto;
+        width: 100%;
+    }
+}
+
 
 img {
     height: auto;

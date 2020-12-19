@@ -4,7 +4,7 @@ title: Tutorials
 ---
 
 <div class="posts">
-{% for category in site.categories | where: 'category', 'tutorials' %}
+{% for category in site.categories | where: "category", "tutorials" %}
     {% for post in category[1] %}
           <article class="post" role="article">
       <h2><a href="{{ site.baseurl }}{{ post.url }}">

@@ -127,8 +127,9 @@ Now go to the `ShortcutsExampleiOS14App.swift` file and change the default `Cont
 
 Now build and run and you can see our simple dummy views in action.
 
-![Screenshot 2](/assets/tut3_2.png){:.small-img}
-![Screenshot 3](/assets/tut3_3.png){:.small-img}
+![Screenshot 2](/assets/tut3_2.png){:.narrow-img}
+
+![Screenshot 3](/assets/tut3_3.png){:.narrow-img}
 
 ## Step Five
 
@@ -307,7 +308,7 @@ In the Shortcuts app, add the `Get People` action to a new shortcut and run it. 
 
 If you add a `Choose From List` action after the `Get People` action, you'll see our new visual list being displayed, including thumbnail images and subtitles.
 
-![Screenshot 11](/assets/tut3_11.gif){:.small-img}
+![Screenshot 11](/assets/tut3_11.gif){:.narrow-img}
 
 Change one of the `iconNames` in our `peopleArray` to an invalid SFSymbol name:
 
@@ -321,7 +322,7 @@ let peopleArray: [Person] = [
 
 Run the shortcut again, we'll see the expected error thrown.
 
-![Screenshot 12](/assets/tut3_12.png){:.small-img}
+![Screenshot 12](/assets/tut3_12.png){:.narrow-img}
 
 ## Summary
 
