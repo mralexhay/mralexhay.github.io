@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: About
 ---
 
 I'm Alex Hay, a London-based [documentary editor](https://www.alexhay.tv) and indie iOS app developer.

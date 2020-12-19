@@ -1,5 +1,8 @@
 <footer class="footer" role="contentinfo">
     <small>
+        {% if page.layout == "default" %}
+          <a href="/atom.xml">RSS feed</a>
+        {% endif %}
     </small>
 </footer>
 
