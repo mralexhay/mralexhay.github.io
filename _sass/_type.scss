@@ -19,17 +19,26 @@ body {
 .site-title {
   font-size: 150%;
   font-weight: bold;
+  
+  a {
+    text-decoration: none;
+  }
 }
 
 .site-subtitle {
   font-size: 90%;
-  opacity: 0.7;
+  color: #bbbcbd;
 }
 
 a,a:visited {
+  
   color: white;
   font-weight: bold;
-
+  
+  &.inactive-nav {
+    color: #bbbcbd;
+  }
+  
   &:hover {
     color: $brand-color;
   }
@@ -118,7 +127,7 @@ pre {
     margin-top: 3rem;
   }
   code {
-    color: $brand-color;
+    color: $code-color;
   }
 }
 

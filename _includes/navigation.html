@@ -1,7 +1,21 @@
 <nav role="navigation">
   <ul>
-    <li><a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
-    <li><a href="/tutorials" title="Tutorials">Tutorials</a></li>
-    <li><a href="/about" title="About">About</a></li>
+  {% if page.title == "Home" %}
+    <li> <a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
+  {% else %}
+    <li> <a class="inactive-nav" href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
+  {% endif %}
+  
+  {% if page.title == "Tutorials" %}
+    <li> <a href="/tutorials" title="Tutorials">Tutorials</a></li>
+  {% else %}
+    <li> <a class="inactive-nav" href="/tutorials" title="Tutorials">Tutorials</a></li>
+  {% endif %}
+    
+  {% if page.title == "About" %}
+    <li> <a href="/about" title="About">About</a></li>
+  {% else %}
+    <li> <a class="inactive-nav" href="/about" title="About">About</a></li>
+  {% endif %}
   </ul>
 </nav>
