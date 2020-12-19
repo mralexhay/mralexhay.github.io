@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Adding Shortcuts To An App - Part Two
-description: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action
+description: Adding a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally as well as enums and calculated lists
 category: tutorials
-summary: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action
+summary: Adding a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally as well as enums and calculated lists
 ---
 
 In the [last post]({% post_url /tutorials/2020-04-04-adding-shortcuts-to-an-app-1 %}) we looked at starting from scratch with a blank Xcode project and adding a basic Shortcuts action that made text uppercase.
