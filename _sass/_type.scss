@@ -139,10 +139,22 @@ pre {
   }
 }
 
-.post-date {
-  color: $tertiary-color;
-  font-size: 80%;
+.post {
+  
+  .post-title {
+    margin-bottom: 8px;
+  }
+  
+  .post-date {
+    color: $tertiary-color;
+    font-size: 80%;
+  }
+  
+  .post-content {
+    margin-top: 40px; 
+  }
 }
+
 
 .marginnote {
   font-style: italic;

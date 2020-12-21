@@ -1,11 +1,11 @@
 <nav role="navigation">
   <ul>
   {% if page.title == "Home" %}
-    <li> <a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
+    <li> <a href="{{ site.baseurl }}/" title="Posts">Posts</a></li>
   {% elsif page.layout == "post" %}
-    <li> <a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
+    <li> <a href="{{ site.baseurl }}/" title="Posts">Posts</a></li>
   {% else %}
-    <li> <a class="inactive-nav" href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
+    <li> <a class="inactive-nav" href="{{ site.baseurl }}/" title="Posts">Posts</a></li>
   {% endif %}
   
   {% if page.title == "Categories" %}

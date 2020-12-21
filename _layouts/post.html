@@ -21,7 +21,9 @@
             <time class="date-day" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d" }}</time>
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
           </span>
+          <div class="post-content">
           {{ content }}
+          </div>
         </article>
       </main>
 
