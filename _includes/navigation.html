@@ -2,7 +2,7 @@
   <ul>
   {% if page.title == "Home" %}
     <li> <a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
-  {% elsif page.layout == "post" and page.category != "tutorials" %}
+  {% elsif page.layout == "post" %}
     <li> <a href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
   {% else %}
     <li> <a class="inactive-nav" href="{{ site.baseurl }}/" title="Blog">Blog</a></li>
