@@ -34,4 +34,3 @@ github:
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-gist
