@@ -7,10 +7,10 @@ description: The personal blog of indie developer, Alex Hay
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post" role="article">
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a></h2>
-            <span class="post-date">
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <span class="post-date">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B" }}</time>
         <time class="date-day" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d" }},</time>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>

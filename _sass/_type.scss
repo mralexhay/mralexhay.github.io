@@ -16,6 +16,10 @@ body {
   }
 }
 
+.category-title {
+  text-transform: capitalize;
+}
+
 .site-title {
   font-size: 150%;
   font-weight: bold;
@@ -49,7 +53,7 @@ a,a:visited {
   }
   
   &.footer-nav {
-    opacity: 0.4;
+    color: $tertiary-color;
   }
   
   &:hover {
@@ -74,7 +78,7 @@ blockquote {
   footer {
     font-size: 80%;
     margin: 1rem 0 0 0;
-    opacity: 0.4;
+    color: $secondary-color;
   }
 }
 
@@ -119,7 +123,7 @@ pre {
 }
 
 .post-date {
-  opacity: 0.4;
+  color: $tertiary-color;
   font-size: 80%;
 }
 
