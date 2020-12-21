@@ -6,7 +6,7 @@ tags: category
 
 <div class="category-posts">
     {% for post in site.posts %}
-        {% if post.category == "toolbox pro" %}
+        {% if post.category == "Toolbox Pro" %}
             <article class="post" role="article">
               <h2><a href="{{ site.baseurl }}{{ post.url }}">
                 {{ post.title }}

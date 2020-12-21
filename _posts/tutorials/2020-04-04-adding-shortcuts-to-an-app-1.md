@@ -2,7 +2,7 @@
 layout: post
 title: Adding Shortcuts To An App - Part One
 description: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action.
-category: tutorials
+category: Tutorials
 summary: The first in a series of tutorials detailing how to add shortcut actions to an iOS app. In this one, we create the project and add our first action.
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Adding Shortcuts To An App - Part Two
 description: How to add a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally or present values from enums and calculated lists.
-category: tutorials
+category: Tutorials
 summary: How to add a shortcut action with parameters that accept multiple values, custom file types, can be shown conditionally or present values from enums and calculated lists.
 ---
 

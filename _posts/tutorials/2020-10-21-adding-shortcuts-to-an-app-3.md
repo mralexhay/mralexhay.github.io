@@ -2,7 +2,7 @@
 layout: post
 title: Adding Shortcuts To An App - Part Three
 description: How to use in-app intent handling, custom output types, visual lists and the new SwiftUI app protocol.
-category: tutorials
+category: Tutorials
 summary: How to use in-app intent handling, custom output types, visual lists and the new SwiftUI app protocol.
 ---
 
