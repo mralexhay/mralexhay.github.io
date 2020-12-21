@@ -27,7 +27,16 @@ body {
 
 .site-subtitle {
   font-size: 90%;
-  color: #bbbcbd;
+  color: $secondary-color;
+}
+
+.footnotes {
+  font-size: 90%;
+  color: $secondary-color;
+}
+
+.footnotes {
+  padding-top: 30px;
 }
 
 a,a:visited {
@@ -36,7 +45,7 @@ a,a:visited {
   font-weight: bold;
   
   &.inactive-nav {
-    color: #bbbcbd;
+    color: $secondary-color;
   }
   
   &.footer-nav {
