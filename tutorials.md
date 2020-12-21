@@ -4,7 +4,6 @@ title: Tutorials
 ---
 
 <div class="posts">
-    
     {% for post in site.posts %}
         {% if post.category == "tutorials" %}
             <article class="post" role="article">

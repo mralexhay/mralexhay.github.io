@@ -12,10 +12,6 @@ baseurl:             ""
 # Includes
 include:
   - _redirects
-  
-collections:
-  category:
-    output: true
 
 # Assets
 #
