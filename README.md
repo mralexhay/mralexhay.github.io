@@ -1,3 +1,3 @@
 # Personal website
 
-Made using the Taunt Jekyll theme: [taunt-jekyll.netlify.com](https://taunt-jekyll.netlify.com)
+Based largely on the [Taunt Jekyll theme](https://taunt-jekyll.netlify.com)
