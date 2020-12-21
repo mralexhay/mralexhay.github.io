@@ -10,6 +10,8 @@
   
   {% if page.title == "Categories" %}
     <li> <a href="/categories" title="Categories">Categories</a></li>
+  {% elsif page.tags contains "category" %}
+    <li> <a href="/categories" title="Categories">Categories</a></li>
   {% else %}
     <li> <a class="inactive-nav" href="/categories" title="Categories">Categories</a></li>
   {% endif %}
