@@ -9,7 +9,7 @@ title: Categories
   <h2><a class="category-title" href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a></h2>
      <ul>
        {% for post in category[1] %}
-         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+         <li><a class="category-link" href="{{ post.url }}">{{ post.title }}</a></li>
        {% endfor %}
      </ul>
   {% endfor %}

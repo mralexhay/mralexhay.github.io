@@ -11,5 +11,3 @@ I'm currently working on:
 * [Menu Box](https://testflight.apple.com/join/aMJxldvJ) (in beta) - easily create beautiful menus for Shortcuts
 
 Say hello on [Twitter](https://twitter.com/mralexhay) 👋🏻
-
-_P.S the source code for this Jekyll site is on [GitHub](https://github.com/mralexhay/mralexhay.github.io)._

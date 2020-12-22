@@ -8,14 +8,17 @@ description: The personal blog of indie developer, Alex Hay
   {% for post in paginator.posts %}
     <article class="post" role="article">
       <h2>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h2>
-      <span class="post-date">
+      <span class="post-date-main">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B" }}</time>
         <time class="date-day" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d" }},</time>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>
       </span>
-      <p>{{ post.summary }}</p>
+      <div class="pill-button">
+          <a href="{{ postsite.baseurl }}/categories/{{ post.category }}">{{ post.category }}</a>
+      </div>
+      <p class="post-summary">{{ post.summary }}</p>
     </article>
   {% endfor %}
 </div>
