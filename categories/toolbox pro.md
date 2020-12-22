@@ -1,6 +1,6 @@
 ---
 layout: default
-title: toolbox pro
+title: Toolbox Pro
 tags: category
 ---
 

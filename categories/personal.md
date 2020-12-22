@@ -1,6 +1,6 @@
 ---
 layout: default
-title: personal
+title: Personal
 tags: category
 ---
 

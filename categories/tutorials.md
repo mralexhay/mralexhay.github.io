@@ -1,6 +1,6 @@
 ---
 layout: default
-title: tutorials
+title: Tutorials
 tags: category
 ---
 
