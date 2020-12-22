@@ -1,12 +1,12 @@
 ---
 layout: default
-title: SwiftUI
+title: swiftui
 tags: category
 ---
 
 <div class="category-posts">
     {% for post in site.posts %}
-        {% if post.category == "SwiftUI" %}
+        {% if post.category == "swiftui" %}
             <article class="post" role="article">
               <h2><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
                 {{ post.title }}

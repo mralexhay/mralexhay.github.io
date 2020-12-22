@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Tutorials
+title: tutorials
 tags: category
 ---
 
 <div class="category-posts">
     {% for post in site.posts %}
-        {% if post.category == "Tutorials" %}
+        {% if post.category == "tutorials" %}
             <article class="post" role="article">
               <h2><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
                 {{ post.title }}

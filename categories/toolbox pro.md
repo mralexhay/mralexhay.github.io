@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Toolbox Pro
+title: toolbox pro
 tags: category
 ---
 
 <div class="category-posts">
     {% for post in site.posts %}
-        {% if post.category == "Toolbox Pro" %}
+        {% if post.category == "toolbox pro" %}
             <article class="post" role="article">
               <h2><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
                 {{ post.title }}
