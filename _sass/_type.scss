@@ -19,6 +19,7 @@ body {
 .category-title {
   text-transform: capitalize;
   text-decoration: none;
+  font-size: 130%;
 }
 
 .category-link {
@@ -153,12 +154,9 @@ pre {
     margin-bottom: 8px;
   }
   
-  .post-summary {
-    font-size: 90%;
-  }
-  
   .post-link {
     text-decoration: none;
+    font-size: 130%;
   }
   
   .post-date {

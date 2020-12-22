@@ -16,11 +16,14 @@
         </a>
         <article class="post" role="article">
           <h1 class="post-title">{{ page.title }}</h1>
-          <span class="post-date">
+          <span class="post-date-main">
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B" }}</time>
             <time class="date-day" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d" }}</time>
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
           </span>
+          <div class="pill-button">
+            <a href="{{ site.baseurl }}/categories/{{ page.category }}">{{ page.category }}</a>
+          </div>
           <div class="post-content">
           {{ content }}
           </div>
