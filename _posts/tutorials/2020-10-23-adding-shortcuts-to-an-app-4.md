@@ -2,7 +2,7 @@
 layout: post
 title: Adding Shortcuts To An App - Part Four
 description: How to use visual lists in action parameters and display data input in Shortcuts inside a SwiftUI app. 
-category: Tutorials
+category: tutorials
 summary: How to use visual lists in action parameters and display data input in Shortcuts inside a SwiftUI app.
 ---
 

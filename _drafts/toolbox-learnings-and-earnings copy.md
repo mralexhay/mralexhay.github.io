@@ -2,7 +2,7 @@
 layout: post
 title: Toolbox Pro - Learnings & Earnings
 description: A quick look at some of the numbers 12 months on from releasing my first app.
-category: Toolbox Pro
+category: toolbox pro
 summary:  A quick look at some of the numbers 12 months on from releasing my first app.
 ---
 

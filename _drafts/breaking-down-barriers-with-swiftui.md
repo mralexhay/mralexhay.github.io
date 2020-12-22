@@ -2,7 +2,7 @@
 layout: post
 title: Breaking Down Barriers With SwiftUI 
 description: Why I wouldn't have learnt to code without SwiftUI.
-category: SwiftUI
+category: swiftui
 summary:  Why I wouldn't have learnt to code without SwiftUI.
 ---
 
