@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Toolbox Pro - Learnings & Earnings
-description: A quick look at some of the numbers 12 months on from releasing my first app.
+description: A quick look at some of the numbers a year on on from releasing my first app.
 category: toolbox pro
-summary:  A quick look at some of the numbers 12 months on from releasing my first app.
+summary:  A quick look at some of the numbers a year on from releasing my first app.
 ---
 
 
@@ -20,23 +20,53 @@ Here are the TL;DR numbers (after 13 months):
 * ⭐️ 4.6 average rating
 * 📝 153 reviews
 
-## Starting Out With SwiftUI
-I hadn't written any code before June last year other than some noodling around with AppleScript on my Mac and JavaScript in [Scriptable](https://scriptable.app). 
+## The Idea
+At WWDC 2019, Apple announced three things that caught my eye:
+* [SwiftUI](https://youtu.be/psL_5RIBqnY?t=7598) - a brand new declarative framework for writing UI that looked way easier than UIKit
+* [Shortcut Action Parameters](https://developer.apple.com/videos/play/wwdc2019/213/) - allowing third-party developers to design their own actions for Shortcuts
+* [Vision Text Recognition](https://developer.apple.com/videos/play/wwdc2019/234/) - an API that allows on-device text recognition
 
-Professionally, I'm a freelance [documentary editor](https://www.alexhay.tv), that's what I'm usually doing day to day, but I've always been a Mac nerd and interested in how apps are made.
+I was already a heavy Shortcuts user and had been hoping to see third-party actions in iOS13. When I saw SwiftUI, I thought it looked fun to try and I thought an app that added an action to Shortcuts that allowed it to pull text from an image would be useful.
 
-I downloaded Xcode a few years back and tried to get my head around it but it's pretty overwhelming for someone starting from scratch. Delegates, singletons, view controllers, auto-layout and storyboards are pretty unintuitive and impenetrable to the uninitiated and I lost interest fairly quickly.
+I didn't know any Swift at this point, having only tinkered around with AppleScript on my Mac and JavaScript in [Scriptable](https://scriptable.app). I downloaded [Unwrap](https://itunes.apple.com/app/id1440611372) by [Hacking With Swift](https://www.hackingwithswift.com) and started working through the language demos on my commute to and from work. Hacking With Swift is an incredible resource for learning Swift and SwiftUI - Paul's tutorial articles are concise and focussed and I still use them all the time.
 
-When Apple announced SwiftUI at WWDC 2019 and gave a slick on-stage demo of a WYSIWIG . 
+After having the bare basics down and having worked through [Apple's SwiftUI tutorials](https://developer.apple.com/tutorials/swiftui/), I started building out my idea and after a couple of weeks of fumbling my way through it, copying code I didn't particularly understand off Stack Overflow and banging my head against the wall with SwiftUI errors, I had a bare bones app with a single shortcut action that accepted an image as input and spat out any recognised text.
+
+As I was developing that first build, it became clear to me that each shortcut action was essentially a drag and drop, codeless 'function' that could accept any text or files and spit something useful out the other end.
+
+I started making a list of actions that would be useful in automations. I browsed [r/shortcuts](https://www.reddit.com/r/shortcuts) and noted down everything people had asked whether there was a way to do in Shortcuts or things that were were tricky and required workarounds using JavaScript or entire shortcuts to perform a single action. 
+
+I ended up with a long list including actions like global variables which persist between shortcut runs, performing a calculation from a written expression, creating menu icons, converting song links to different services, checking if the device is connected to the internet, extracting colours from an image and so on.
+
+![Early Beta Build](/assets/tbp-retrospective_1.png){:.small-img}
+
+<span class="marginnote">Early beta build - and yes, it was taken at 01:42</span>
+
+It was the perfect project to learn code because I was building small functions using lots of different frameworks - Core Image filters one day, Vision face recognition the next.
+
+## Taking (Test) Flight
+
+I worked on the app in the evenings and weekends and once I had a bare-minimum app with 33 actions, I wrote [a post](https://www.reddit.com/r/shortcuts/comments/cyi7uj/new_companion_app_for_shortcuts_looking_for_beta/) on r/shortcuts asking for beta testers for my 'Shortcuts companion app'.
+
+This post was when I thought I might have something good - people seemed to respond really well to the idea, with lots of suggestions and positive feedback.
+
+Over the course of developing the app I ended up with around 3,000 beta testers[^footnote]. I kept adding actions and ended up with around 55 in the build I wanted to launch.
+
+Although the app had made it through TestFlight review I wasn't _entirely_ sure the app would be successfully approved in the App Store. I hadn't really seen another app like this where the bulk of the app's functionality lived outside of the app itself, with the main in-app functionality being documentation for the actions and links to example shortcuts.
+
+To my surprise, it passed review first time (after a nervous couple of days) and I launched the app on November 13 2019.
+
+## Pricing & Marketing
+
+There's (obviously) so much more that goes into making an app than just the code. Marketing and pricing strategies are require skill and experience in themselves and I definitely don't have any expertise in that arena so I really just winged it.
+
+I decided to make the app free to download with a good number of the tools available for free and the rest locked behind an in-app purchase. There's a natural virality to users building a sharing Shortcuts using Toolbox Pro's actions so I wanted to make sure some of the big, useful features were completely free to use - like Preview (build native, interactive SwiftUI pages in  Shortcuts) and global variables.
 
 
-- wwdc
-- shortcuts popularity
-- public beta
-    
-## Learning How To Code
-* HackingWithSwift (+ the app)
-* SwiftWithMajid
+
+
+
+
 
 ## Marketing
 * Charlie Chapman's blog post. 
@@ -47,11 +77,12 @@ When Apple announced SwiftUI at WWDC 2019 and gave a slick on-stage demo of a WY
 * Expectations - 10k downloads felt ambitious
 * new entry, doing something unusual
 * stats
-* chinese blog[^footnote]
+* [SSPAI post](https://sspai.com/post/57529)
+* [SSPAI best apps](https://sspai.com/post/57983)
 * featured (artwork)
-* macstories
+* [Macstories](https://www.macstories.net/reviews/toolbox-pro-review-a-must-have-companion-utility-for-shortcuts-power-users/)
 * Shortcuts team using TBP
-* 9to5mac
+* [Cult Of Mac](https://www.cultofmac.com/665454/toolbox-pro-brings-incredible-new-tricks-to-shortcuts/)
 * [Toolbox Pro brings incredible new tricks to Shortcuts](https://www.cultofmac.com/665454/toolbox-pro-brings-incredible-new-tricks-to-shortcuts/)
 * Tools & Toys
 * Automators & Launched
@@ -77,4 +108,4 @@ When Apple announced SwiftUI at WWDC 2019 and gave a slick on-stage demo of a WY
 * threw a lot of dirt at the wall, now looking at taking popular features and expanding them logically - menu box and potentially Preview
 
     
-[^footnote]: Test, [Link](https://google.com).
+[^footnote]: I decided not to impose a limit on TestFlight since I wanted people to use and experiment with it.
