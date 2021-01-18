@@ -125,6 +125,10 @@ struct PeopleViews_Previews: PreviewProvider {
 
 Now go to the `ShortcutsExampleiOS14App.swift` file and change the default `ContentView()` to `PeopleListView()` as the new entry point to our app.
 
+To use in-app intent handling, we also need to make sure that our app supports multiple windows. Navigate to your app's preferences and make sure 'supports multiple windows' is ticked.
+
+![Screenshot 1b](/assets/tut3_1b.png)
+
 Now build and run and you can see our simple dummy views in action.
 
 ![Screenshot 2](/assets/tut3_2.png){:.narrow-img}

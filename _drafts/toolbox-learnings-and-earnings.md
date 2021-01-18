@@ -30,7 +30,7 @@ I was already a heavy Shortcuts user and had been hoping to see third-party acti
 
 I didn't know any Swift at this point, having only tinkered around with AppleScript on my Mac and JavaScript in [Scriptable](https://scriptable.app). I downloaded [Unwrap](https://itunes.apple.com/app/id1440611372) by [Hacking With Swift](https://www.hackingwithswift.com) and started working through the language demos on my commute to and from work. Hacking With Swift is an incredible resource for learning Swift and SwiftUI - Paul's tutorial articles are concise and focussed and I still use them all the time.
 
-After having the bare basics down and having worked through [Apple's SwiftUI tutorials](https://developer.apple.com/tutorials/swiftui/), I started building out my idea and after a couple of weeks of fumbling my way through it, copying code I didn't particularly understand off Stack Overflow and banging my head against the wall with SwiftUI errors, I had a bare bones app with a single shortcut action that accepted an image as input and spat out any recognised text.
+After having the bare basics down and having worked through [Apple's SwiftUI tutorials](https://developer.apple.com/tutorials/swiftui/), I started building out my idea and after a couple of weeks of fumbling my way through it, copying code I didn't particularly understand off Stack Overflow and banging my head against the wall with SwiftUI errors, I had a bare bones app with a single shortcut action that accepted an image as input and output out any recognised text.
 
 As I was developing that first build, it became clear to me that each shortcut action was essentially a drag and drop, codeless 'function' that could accept any text or files and spit something useful out the other end.
 
@@ -58,9 +58,16 @@ To my surprise, it passed review first time (after a nervous couple of days) and
 
 ## Pricing & Marketing
 
-There's (obviously) so much more that goes into making an app than just the code. Marketing and pricing strategies are require skill and experience in themselves and I definitely don't have any expertise in that arena so I really just winged it.
+There's (obviously) so much more that goes into making an app than just the code. Marketing and pricing strategies require a good deal of skill and experience in themselves and I definitely don't have any expertise in that arena so I really just winged it.
 
-I decided to make the app free to download with a good number of the tools available for free and the rest locked behind an in-app purchase. There's a natural virality to users building a sharing Shortcuts using Toolbox Pro's actions so I wanted to make sure some of the big, useful features were completely free to use - like Preview (build native, interactive SwiftUI pages in  Shortcuts) and global variables.
+I decided to make the app free to download with a good number of the tools available without payment and the rest locked behind an in-app purchase. There's a natural virality to users building a sharing Shortcuts using Toolbox Pro's actions so I wanted to make sure some of the big, useful features were completely free to use - like Preview (build native, interactive SwiftUI pages in Shortcuts) and global variables.
+
+I found [this post](https://charliemchapman.com/posts/2019/9/27/marketing-dark-noise/) by Charlie Chapman about marketing his app, [Dark Noise](https://apps.apple.com/app/dark-noise/id1465439395), a very useful starting point for marketing. 
+
+## Reception
+
+My ambition was to try and hit 10,000 downloads, which seemed like an awful lot for a pretty niche little automation app.
+
 
 
 
