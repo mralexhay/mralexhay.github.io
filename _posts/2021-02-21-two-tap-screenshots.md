@@ -67,7 +67,11 @@ You can easily toggle which screenshots you wish to output in the dictionary at 
 
 ## The Shortcut
 
-You can download my **'Framed Screenshot'** shortcut [here](https://www.icloud.com/shortcuts/609eef2261b44414beadbd1d500b6ad8). Make sure you have PicSew & Toolbox Pro installed and a Folder Bookmark with the name **'Desktop'** or it won't run as expected. At the time of writing, it also requires the developer beta of 14.5.
+You can download my **'Framed Screenshot'** shortcut [here](https://www.icloud.com/shortcuts/609eef2261b44414beadbd1d500b6ad8).
+
+Make sure you have PicSew & Toolbox Pro installed and a Folder Bookmark with the name **'Desktop'** or it won't run as expected.
+
+At the time of writing, it also requires the developer beta of 14.5.
 
 To trigger the shortcut using a double or triple tap to the back of the device, select the shortcut in Settings.app:
 
