@@ -13,7 +13,7 @@ I've always found it interesting to read break-downs by developers that lift the
 
 Here are the TL;DR numbers (after 13 months):
 
-* 📈 104k downloads
+* 📈 104k (free) downloads
 * 💰 ~£63k revenue (in-app purchase & tip jar)
 * 💷 ~£41k take-home (after Apple's cut)
 * 🔓 ~10% of downloaders paid to unlock premium
@@ -61,6 +61,8 @@ To my surprise, it passed review first time (after a nervous couple of days) and
 There's (obviously) so much more that goes into making an app than just the code. Marketing and pricing strategies require a good deal of skill and experience in themselves and I definitely don't have any expertise in that arena so I really just winged it.
 
 I decided to make the app free to download with a good number of the tools available without payment and the rest locked behind an in-app purchase. There's a natural virality to users building a sharing Shortcuts using Toolbox Pro's actions so I wanted to make sure some of the big, useful features were completely free to use - like Preview (build native, interactive SwiftUI pages in Shortcuts) and global variables.
+
+I set the price to unlock everything at £5.99
 
 I found [this post](https://charliemchapman.com/posts/2019/9/27/marketing-dark-noise/) by Charlie Chapman about marketing his app, [Dark Noise](https://apps.apple.com/app/dark-noise/id1465439395), a very useful starting point for marketing. 
 
