@@ -277,7 +277,7 @@ func handle(intent: ViewPersonIntent, completion: @escaping (ViewPersonIntentRes
 
 ```
 
-You can see we're also passing in an NSUserActivity object with a unique ID. Before opening our app, SiriKit will populate its `interation` property with our intent, as per the [documentation](https://developer.apple.com/documentation/sirikit/inintentresponse/1639469-useractivity). 
+You can see we're also passing in an NSUserActivity object with a unique ID. Before opening our app, SiriKit will populate its `interaction` property with our intent, as per the [documentation](https://developer.apple.com/documentation/sirikit/inintentresponse/1639469-useractivity). 
 
 > _If SiriKit determines that it needs to launch your app, either to handle the intent or respond to errors, it launches your app and delivers your user activity object. (Prior to delivery, SiriKit fills the interaction property of the user activity object with the intent and your response.) In your app, use the information in the provided user activity object to take whatever actions are appropriate_
 
