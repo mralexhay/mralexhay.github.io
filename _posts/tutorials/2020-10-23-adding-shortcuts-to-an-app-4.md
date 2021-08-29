@@ -27,7 +27,7 @@ In this tutorial, we'll add a new Shortcuts action to our app which will let the
 
 You'll also be able to add a string in a 'note' parameter to demonstrate how you can pass data *into* your app from Shortcuts.
 
-Firstly, let's add a new intent call `ShowPerson` to our `IntentDefinition` file. 
+Firstly, let's add a new intent called `ViewPerson` to our `IntentDefinition` file. 
 
 We'll add two parameters. The first is `person`, which will let us pick from the array of people saved in our app (using the visual list API). 
 
