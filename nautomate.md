@@ -2,7 +2,7 @@
 
 Nautomate is a new app I'm working on which adds Notion actions to Shortcuts, giving you new automation superpowers.
 
-It's currently being test in TestFlight.
+It's currently being tested in TestFlight.
 
 ### Privacy Policy
 
